@@ -1,6 +1,8 @@
 <html>
 <head><title>First JSP</title></head>
 <body>
+<h3>Hello, this is the final project website</h3>
+<h3>Which is presented by: Adi, Rotem, Carmel, Rony, Bar</h3>
   <%
     double num = Math.random();
     if (num > 0.95) {
