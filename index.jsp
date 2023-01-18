@@ -3,7 +3,7 @@
 <body>
 <h3 id="hello-header">Hello, this is the final project website</h3>
 <h3 id='names-header'>Which is presented by: Adi, Rotem, Carmel, Rony, Bar</h3>
-<h3 id='names-header'>Showing the ability to work parallelized</h3>
+<h3 id='header'>Showing the ability to work parallelized</h3>
   <%
     double num = Math.random();
     if (num > 0.95) {
@@ -16,6 +16,6 @@
   <%
     }
   %>
-  <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
+  <a href="<%= request.getRequestURI() %>"><h3 id='try-again-button'>Try Again</h3></a>
 </body>
 </html>
