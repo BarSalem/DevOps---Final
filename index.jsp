@@ -3,6 +3,7 @@
 <body>
 <h3 id="hello-header">Hello, this is the final project website</h3>
 <h3 id='names-header'>Which is presented by: Adi, Rotem, Carmel, Rony, Bar</h3>
+<h3 id='names-header'>Showing the ability to work parallelized</h3>
   <%
     double num = Math.random();
     if (num > 0.95) {
