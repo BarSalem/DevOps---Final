@@ -1,0 +1,49 @@
+{
+  "id": "261cbe19-9fca-4210-ab44-ae46be1e7e4f",
+  "version": "2.0",
+  "name": "TomCatTest",
+  "url": "http://localhost:8888/DevOpsApp1/",
+  "tests": [{
+    "id": "ff10671f-d9ec-46c3-bf28-f1f0e70f2462",
+    "name": "TomCat",
+    "commands": [{
+      "id": "682e6e20-83ac-4336-9d0d-790d85cc5a86",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://localhost:8888/DevOpsApp1/"
+    }, {
+      "id": "37973596-e3fe-4f29-89ad-40a41dd12c76",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=hello-header",
+      "targets": [],
+      "value": "Hello, this is the final project website"
+    }, {
+      "id": "9064fb14-fd3f-46be-bdf7-096346a5ffe7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=names-header",
+      "targets": [],
+      "value": "Which is presented by: Adi, Rotem, Carmel, Rony, Bar"
+    }, {
+      "id": "ad2ab26f-0986-41b4-8e90-f6b804f84621",
+      "comment": "",
+      "command": "click",
+      "target": "id=try-again-button",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "abb7c432-1edb-456b-b4e2-8ff82e0f6c72",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ff10671f-d9ec-46c3-bf28-f1f0e70f2462"]
+  }],
+  "urls": ["http://localhost:8888/DevOpsApp1/"],
+  "plugins": []
+}
