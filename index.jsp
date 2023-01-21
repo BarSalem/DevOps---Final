@@ -8,6 +8,7 @@
       Which is presented by: Adi, Rotem, Carmel, Rony, Bar
     </h3>
     <h3 id="header">Showing the ability to work parallelized</h3>
+
     <% double num = Math.random(); if (num > 0.95) { %>
     <h2>
       You'll have a luck day!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!, and this is the
