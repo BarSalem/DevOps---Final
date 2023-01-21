@@ -21,5 +21,8 @@
     <a href="<%= request.getRequestURI() %>"
       ><h3 id="try-again-button">Try Again</h3></a
     >
+    <a href="https://www.fxp.co.il/"
+      ><h3 id="fxp-button">Go to FXP</h3></a
+    >
   </body>
 </html>
